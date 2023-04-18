@@ -8,7 +8,7 @@
 import streamlit as st
 from joblib import load
 
-st.title("IRIS Dataset Prediction")
+st.title("IRIS Prediction")
 lables = ['setosa', 'versicolor', 'virginica']
 
 ml_clf = load("ML_DT.joblib")
