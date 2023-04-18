@@ -7,6 +7,7 @@
 
 import streamlit as st
 from joblib import load
+from sklearn import tree
 
 st.title("IRIS Prediction")
 lables = ['setosa', 'versicolor', 'virginica']
