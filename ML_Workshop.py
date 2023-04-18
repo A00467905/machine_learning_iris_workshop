@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 18 16:10:27 2023
 
 @author: amangahir
 """
@@ -31,3 +30,4 @@ print(accuracy_metric)
 print(iris_data['target_names'][y_prediction_results])
 
 dump(clf, "ML_DT.joblib")
+tree.plot_tree(clf,feature_names=iris_data.feature_names, class_names=iris_data.target_names, filled=True)

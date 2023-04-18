@@ -21,4 +21,4 @@ petal_width = st.slider('petal width (cm)', min_value=0, max_value=10)
 
 prediction = ml_clf.predict([[sepal_length, sepal_width, petal_length, petal_width]])
 
-st.write(lables[prediction[0]])
+st.write("The prediction is : "+lables[prediction[0]])
